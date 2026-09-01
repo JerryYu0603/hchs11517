@@ -23,7 +23,7 @@ export default function AdminPage() {
   // 簡易管理員密碼驗證 (預設為 classadmin888)
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passwordInput === 'admin888') {
+    if (passwordInput === 'classadmin888') {
       setIsAuthenticated(true);
     } else {
       alert('密碼錯誤！');
